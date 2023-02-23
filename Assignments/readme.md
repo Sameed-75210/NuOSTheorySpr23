@@ -25,11 +25,12 @@ universe"
 ![image](https://user-images.githubusercontent.com/92264901/221014564-720c250d-d560-48ea-ae4c-0e8ad43ed090.png)
 
 
-Adding a C code for the system call:
+**Step 03:** Adding a C code for the system call:
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221016370-ac3cea25-edbc-4224-ba82-c57b4fc0def7.png)
-Code explanation:
+
+**Code explanation:**
 
 
 a. We used #include <linux/kernel> because we are building a system call for our linux kernel.
@@ -46,44 +47,44 @@ and Hello world is written to out kernel’s log file.
 
 
 
-Creating a Makefile for the C code:
+**Step 04:** : **Creating a Makefile for the C code:**
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221016539-e33cfd59-e48e-4a44-8f76-a734f751bba1.png)
 ![image](https://user-images.githubusercontent.com/92264901/221016606-52fdb314-2987-40d6-a88c-5362ebcfebf7.png)
 
-Adding the new code into the system table file:
+**Step 05:** **Adding the new code into the system table file:**
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221016685-4a120949-fcee-4423-9601-15527b71d87b.png)
 
-Adding the prototype of the new system call into the system calls header file:
+**Step 06:** **Adding the prototype of the new system call into the system calls header file:**
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221016844-d8d12f7f-ad5e-4325-8f53-c4dd9c9b66aa.png)
 
-Changing version and adding the hello folder in the kernel’s Makefile:
+**Step 07:** **Changing version and adding the hello folder in the kernel’s Makefile:**
 
 ![image](https://user-images.githubusercontent.com/92264901/221017066-b8663cfd-69fd-4cf6-bb03-cbd88d094219.png)
 
 ![image](https://user-images.githubusercontent.com/92264901/221017093-0e6b79f1-3087-440c-9405-102420db445b.png)
 
 
-Creating a config file:
+**Step 08:** **Creating a config file:**
 
 ![image](https://user-images.githubusercontent.com/92264901/221019800-d0a41e10-713e-4973-a11a-f4e30208b8c2.png)
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221019843-475deb87-19c8-4865-bd14-1682c88f0655.png)
 
-Cleaning and Compiling the kernel:
+**Step 09:** **Cleaning and Compiling the kernel:**
 
 ![image](https://user-images.githubusercontent.com/92264901/221020053-f6fa17e4-ad74-4fdd-b426-e2bffc6916cc.png)
 
 
 ![image](https://user-images.githubusercontent.com/92264901/221020474-57890f9a-1c66-4d34-92f6-319ddb1b10dc.png)
 
-Checking if the System call is Working Properly:
+**Step 10:** **Checking if the System call is Working Properly:**
 
 After logging into the newly compiled kernel, we check the system call by making a C code
 
