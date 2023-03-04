@@ -1,4 +1,4 @@
-Programmer: Muahammad Sameed Roll no: K21-3100
+Programmer: Muhammad Sameed Roll no: K21-3100
 
 Step 01: First we need to download these modules: • sudo apt-get install gcc • sudo apt-get install libncurses5-dev • sudo apt-get install bison • sudo apt-get install flex • sudo apt install make • sudo apt-get install libssl-dev • sudo apt-get install libelf-dev • sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe" • sudo apt-get update • sudo apt-get upgrade
 
